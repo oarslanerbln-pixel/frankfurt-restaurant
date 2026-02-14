@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fine Dining Frankfurt | Contemporary European Cuisine</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Page Loader -->
+    <div id="page-loader" class="page-loader">
+        <div class="loader-content">
+            <div class="loader-logo">FGK</div>
+            <div class="loader-text">Frankfurt Gourmet Küche</div>
+        </div>
+    </div>
+
+    <!-- Header / Nav -->
+    <header id="main-header" class="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">FGK</a>
+
+            <nav class="desktop-nav">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#philosophy">Philosophy</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reservations">Reservations</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-nav">
+            <ul class="mobile-nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <!-- Logo moved to top level of hero, acting as header/logo -->
+            <div class="hero-logo uppercase">Frankfurt Gourmet Küche</div>
+
+            <div class="hero-bg">
+                <!-- Placeholder image for now -->
+                <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+                    alt="Exquisite culinary artistry - Fine dining dish">
+            </div>
+
+
+            <div class="hero-content">
+                <h1 class="hero-title">EXQUISITE CULINARY ARTISTRY</h1>
+
+                <div class="hero-separator"></div>
+
+                <p class="hero-subtitle">Contemporary European Cuisine in the Heart of Frankfurt</p>
+
+                <a href="#reservations" class="btn-primary">Reserve Your Table</a>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Philosophy Section -->
+        <section class="philosophy-section" id="philosophy">
+            <div class="container">
+                <div class="split-layout">
+                    <!-- Left Panel: Content -->
+                    <div class="philosophy-content scroll-reveal-left">
+                        <h2 class="section-title">OUR PHILOSOPHY</h2>
+                        <div class="section-separator"></div>
+
+                        <div class="philosophy-text">
+                            <p>We believe that true culinary artistry lies in the delicate balance between tradition and
+                                innovation. Our kitchen is a laboratory of flavors, where locally sourced ingredients
+                                meet avant-garde techniques to create something truly extraordinary.</p>
+
+                            <p>Every season brings a new canvas. We work intimately with regional farmers and artisans
+                                to ensure that what ends up on your plate captures the very essence of the moment.
+                                Freshness is not just a promise; it is our obsession.</p>
+
+                            <p>Sustainability is at the heart of our craft. We honor the land that feeds us by
+                                minimizing waste and respecting every ingredient. This is food with a conscience, served
+                                with passion.</p>
+                        </div>
+
+                        <div class="chef-signature">Alexander Müller</div>
+                    </div>
+
+                    <!-- Right Panel: Image -->
+                    <div class="philosophy-image-wrapper scroll-reveal-right">
+                        <div class="philosophy-image">
+                            <!-- Placeholder for Chef Portrait -->
+                            <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80&sat=-100"
+                                alt="Chef Alexander Müller - Culinary Director">
+                        </div>
+                        <div class="image-caption">
+                            <span class="chef-name">Chef Alexander Müller</span>
+                            <span class="chef-title">Culinary Director</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Menu Preview Section -->
+        <section class="menu-section fade-in-section" id="menu">
+            <div class="container">
+                <div class="text-center stagger-container">
+                    <h2 class="section-title stagger-item delay-1">SIGNATURE CREATIONS</h2>
+                    <div class="section-separator mx-auto stagger-item delay-2"></div>
+                </div>
+
+                <div class="carousel-container fade-in-section delay-200">
+                    <div class="carousel-track-container">
+                        <ul class="carousel-track">
+                            <!-- Slide 1 -->
+                            <li class="carousel-slide current-slide">
+                                <div class="menu-card">
+                                    <div class="menu-image">
+                                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                            alt="Foie Gras Torchon – Mit Brioche & Sauternes Gelée">
+                                    </div>
+                                    <div class="menu-details">
+                                        <h3 class="dish-name uppercase">Foie Gras Torchon</h3>
+                                        <p class="dish-accompaniment">Mit Brioche & Sauternes Gelée</p>
+                                        <div class="dish-separator"></div>
+                                        <p class="dish-description">Eine feine Balance aus Reichhaltigkeit und Säure,
+                                            serviert mit hausgemachter, warmer Brioche und einem saisonalen
+                                            Fruchtkompott.</p>
+                                        <div class="dish-price gold-text">€38</div>
+                                        <a href="#full-menu" class="btn-text">View Full Menu</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Slide 2 -->
+                            <li class="carousel-slide">
+                                <div class="menu-card">
+                                    <div class="menu-image">
+                                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                            alt="Jakobsmuschel-Carpaccio – Zitruskaviar & Trüffelöl">
+                                    </div>
+                                    <div class="menu-details">
+                                        <h3 class="dish-name uppercase">Jakobsmuschel-Carpaccio</h3>
+                                        <p class="dish-accompaniment">Zitruskaviar & Trüffelöl</p>
+                                        <div class="dish-separator"></div>
+                                        <p class="dish-description">In dünne Scheiben geschnittene, handgetauchte
+                                            Jakobsmuscheln, mit Yuzu-Vinaigrette angemacht und mit gehobeltem schwarzen
+                                            Wintertrüffel verfeinert.</p>
+                                        <div class="dish-price gold-text">€42</div>
+                                        <a href="#full-menu" class="btn-text">View Full Menu</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <!-- Slide 3 -->
+                            <li class="carousel-slide">
+                                <div class="menu-card">
+                                    <div class="menu-image">
+                                        <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=800&auto=format&fit=crop"
+                                            alt="Venison Loin">
+                                    </div>
+                                    <div class="menu-details">
+                                        <h3 class="dish-name uppercase">Hirschrücken</h3>
+                                        <p class="dish-accompaniment">Pastinakenpüree & Brombeerjus</p>
+                                        <div class="dish-separator"></div>
+                                        <p class="dish-description">In der Pfanne gebratener Rehrücken, serviert rosa,
+                                            begleitet von geröstetem Wurzelgemüse und einer reichen Wildreduktion.</p>
+                                        <div class="dish-price gold-text">€56</div>
+                                        <a href="#full-menu" class="btn-text">View Full Menu</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="carousel-nav">
+                        <button class="carousel-indicator current-slide"></button>
+                        <button class="carousel-indicator"></button>
+                        <button class="carousel-indicator"></button>
+                    </div>
+
+                    <button class="carousel-button carousel-button--left is-hidden">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <button class="carousel-button carousel-button--right">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Experience Gallery Section -->
+        <section class="gallery-section fade-in-section" id="gallery">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-title">THE EXPERIENCE</h2>
+                    <div class="section-separator mx-auto"></div>
+                </div>
+
+                <div class="masonry-grid stagger-container">
+                    <!-- Gallery Item 1 -->
+                    <div class="gallery-item stagger-item delay-1">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop"
+                            alt="Restaurant Ambiance" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Hauptspeisesaal</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 2 -->
+                    <div class="gallery-item stagger-item delay-2">
+                        <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Plating Detail" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Culinary Art</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 3 -->
+                    <div class="gallery-item stagger-item delay-3">
+                        <img src="https://images.unsplash.com/photo-1595295333158-4742f28fbd85?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Pasta Dish" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Handmade Pasta</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 4 -->
+                    <div class="gallery-item stagger-item delay-4">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Fine Dining Dish" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Seasonal Creation</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 5 -->
+                    <div class="gallery-item stagger-item delay-5">
+                        <img src="https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Wine Selection" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Sommelier Selection</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 6 -->
+                    <div class="gallery-item stagger-item delay-6">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Appetizer" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Amuse-Bouche</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 7 -->
+                    <div class="gallery-item stagger-item delay-7">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Dessert" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Sweet Finale</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 8 -->
+                    <div class="gallery-item stagger-item delay-8">
+                        <img src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Chef at Work" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Back of House</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 9 -->
+                    <div class="gallery-item stagger-item delay-9">
+                        <img src="https://images.unsplash.com/photo-1530062845289-9109b2c9c868?q=80&w=800&auto=format&fit=crop"
+                            alt="Tisch Dekoration" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Tisch Dekoration</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 10 -->
+                    <div class="gallery-item stagger-item delay-10">
+                        <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="Cocktail" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Mixology</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+            <div id="lightbox-caption"></div>
+        </div>
+
+        <!-- Reservations Section -->
+        <section class="reservations-section fade-in-section" id="reservations">
+            <div class="container">
+                <div class="text-center stagger-container">
+                    <h2 class="section-title stagger-item delay-1">RESERVATIONS</h2>
+                    <div class="section-separator mx-auto stagger-item delay-2"></div>
+                </div>
+
+                <div class="reservations-grid stagger-container">
+                    <!-- Left: Reservation Form -->
+                    <div class="reservation-form-wrapper stagger-item delay-3">
+                        <form class="reservation-form" id="reservation-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" required placeholder="+49 123 456789">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="date">Date</label>
+                                    <input type="date" id="date" name="date" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="time">Time</label>
+                                    <select id="time" name="time" required>
+                                        <option value="" disabled selected>Select Time</option>
+                                        <option value="18:00">18:00</option>
+                                        <option value="18:30">18:30</option>
+                                        <option value="19:00">19:00</option>
+                                        <option value="19:30">19:30</option>
+                                        <option value="20:00">20:00</option>
+                                        <option value="20:30">20:30</option>
+                                        <option value="21:00">21:00</option>
+                                        <option value="21:30">21:30</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="guests">Number of Guests</label>
+                                <select id="guests" name="guests" required>
+                                    <option value="" disabled selected>Select Guests</option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 People</option>
+                                    <option value="3">3 People</option>
+                                    <option value="4">4 People</option>
+                                    <option value="5">5 People</option>
+                                    <option value="6">6 People</option>
+                                    <option value="large">Larger Party (Please Contact Direct)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Special Requests</label>
+                                <textarea id="message" name="message" rows="3"
+                                    placeholder="Allergies, special occasion, etc."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-primary btn-gold w-100">Request Reservation</button>
+                        </form>
+                    </div>
+
+                    <!-- Right: Info & Map -->
+                    <div class="reservation-info-wrapper stagger-item delay-4">
+                        <div class="info-block">
+                            <h3>CONTACT</h3>
+                            <p>Kaiserstraße 123<br>60311 Frankfurt am Main<br>Germany</p>
+                            <p><a href="tel:+496912345678">+49 (0) 69 1234 5678</a><br>
+                                <a href="mailto:reservations@frankfurt-gourmet.de">reservations@frankfurt-gourmet.de</a>
+                            </p>
+                        </div>
+
+                        <div class="info-block">
+                            <h3>OPENING HOURS</h3>
+                            <p><strong>Tuesday - Saturday</strong><br>18:00 - 23:00</p>
+                            <p><strong>Sunday & Monday</strong><br>Closed</p>
+                        </div>
+
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.6015560731034!2d8.671373315717384!3d50.11092407943003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd0ea3b5b6301f%3A0xc34383637e75cb79!2sFrankfurt%20am%20Main!5e0!3m2!1sen!2sde!4v1645564855000!5m2!1sen!2sde"
+                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer fade-in-section">
+        <div class="container">
+            <!-- Newsletter Section -->
+            <div class="newsletter-section fade-in-section delay-100">
+                <h3>Join Our Inner Circle</h3>
+                <p>Subscribe for exclusive event invitations and seasonal menu updates.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn-text">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="footer-separator"></div>
+
+            <!-- Footer Columns -->
+            <div class="footer-grid fade-in-section delay-200">
+                <!-- Navigation -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#philosophy">Philosophy</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reservations">Reservations</a></li>
+                    </ul>
+                </div>
+
+                <!-- Hours -->
+                <div class="footer-col">
+                    <h4>Hours</h4>
+                    <p>Tue - Sat: 18:00 - 23:00</p>
+                    <p>Sun - Mon: Closed</p>
+                    <p class="mt-2">Happy Hour: 18:00 - 19:30</p>
+                </div>
+
+                <!-- Social -->
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Legal -->
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Imprint</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Frankfurt Gourmet Küche. All rights reserved.</p>
+                <p class="designer-credit">Designed with <span style="color: var(--color-accent);">♥</span> by
+                    Antigravity</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
